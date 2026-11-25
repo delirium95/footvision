@@ -1,0 +1,12 @@
+# YOLO dataset config. Point `path` at your dataset root in YOLO format
+# (images/ and labels/ with train/ and val/ subfolders). Works with any
+# Roboflow football export or a SoccerNet set converted to YOLO format.
+path: ./dataset
+train: images/train
+val: images/val
+
+names:
+  0: player
+  1: goalkeeper
+  2: referee
+  3: ball

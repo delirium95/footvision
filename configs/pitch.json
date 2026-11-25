@@ -1,0 +1,6 @@
+{
+  "_comment": "Optional homography. Pick 4+ points you can see in the video (pitch corners, centre marks, penalty box corners) and give their pixel position in a reference frame plus their real position on a 105x68 m pitch (metres, origin bottom-left). Leave image_points empty to draw the heatmap in image space instead of on a top-down pitch.",
+  "pitch_size_m": [105, 68],
+  "image_points": [],
+  "pitch_points": []
+}
